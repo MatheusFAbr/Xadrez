@@ -1,0 +1,194 @@
+body{
+    background-color: #161616;
+}
+
+.quadrado{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pai{
+    position: absolute;
+    border: 1px solid;
+    height: 800px;
+    width: 800px;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 8px rgb(0 0 0 / 65%);
+    background: #2e2d2d;
+    z-index: -2;
+}
+
+.preto{
+    background-color: black;
+}
+
+#tabuleiro{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: rgb(91, 209, 91);
+    left: 69px;
+    top: 9px;
+    z-index: -1;
+    opacity: 0%;
+}
+
+.cavalao{
+    width: 80px;
+    height: 90px;
+    position: relative;
+    top: 100px;
+    left: 109px;
+    animation: pocoto 15s ease infinite;
+}
+
+@keyframes pocoto{
+    0%{
+        top: 100px;
+       left: 109px;
+    }
+
+    4%{
+        top: 209px;
+       left: 109px;
+    }
+    8%{
+        top: 309px;
+        left: 109px;
+    }
+    12%{
+        top: 309px;
+        left: 9px;
+    }
+    16%{
+        top: 309px;
+        left: 109px;
+    }
+    20%{
+        top: 309px;
+        left: 209px;
+    }
+    24%{
+        top: 409px;
+        left: 209px;
+    }
+    28%{
+        top: 509;
+        left: 209px;
+    }
+    32%{
+        top: 609;
+        left: 209px;
+    }
+    36%{
+        top: 509px;
+        left: 209px;
+    }
+    40%{
+        top: 609px;
+        left: 209px;
+    }
+    44%{
+        top: 609px;
+        left: 109px;
+    }
+    48%{
+        top: 609px;
+        left: 209px;
+    }
+
+    52%{
+        top: 609px;
+        left: 309px;
+    }
+    56%{
+        top: 709;
+        left: 309px;
+    }
+    60%{
+        top: 709px;
+        left: 309px;
+    }
+    64%{
+        top: 809px;
+        left: 309px;
+    }
+    68%{
+        top: 809px;
+        left: 209px;
+    }
+    72%{
+        top: 809px;
+        left: 109px;
+    }
+
+    74%{
+        top: 809px;
+        left: 209px;
+    }
+    76%{
+        top: 809px;
+        left: 309px;
+    }
+    78%{
+        top: 709px;
+        left: 309px;
+    }
+    80%{
+        top: 709;
+        left: 309px;
+    }
+    81%{
+        top: 609px;
+        left: 309px;
+    }
+    82%{
+        top: 609px;
+        left: 109px;
+    }
+    83%{
+        top: 509;
+        left: 209px;
+    }
+    84%{
+        top: 609;
+        left: 209px;
+    }
+    85%{
+        top: 509;
+        left: 209px;
+    }
+    86%{
+        top: 409px;
+        left: 209px;
+    }
+    87%{
+        top: 309px;
+        left: 209px;
+    }
+    88%{
+        top: 309px;
+        left: 109px;
+    }
+    89%{
+        top: 309px;
+        left: 9px;
+    }
+    90%{
+        top: 309px;
+        left: 109px;
+    }
+    92%{
+        top: 209px;
+       left: 109px;
+    }
+
+
+    100%{
+        top: 100px;
+       left: 109px;
+    }
+}
